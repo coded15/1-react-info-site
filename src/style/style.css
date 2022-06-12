@@ -42,6 +42,9 @@ nav {
     /* position: relative; */
     padding:57px 27px;
     color: #FFFFFF;
+    background-image: url("../images/reactjs-icon\ large.png");
+    background-repeat: no-repeat;
+    background-position: right 75%;
 }
 
 .main-heading{
