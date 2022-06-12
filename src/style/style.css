@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-color: #282D35;
     font-family: Inter, sans-serif;
 }
 
@@ -34,4 +35,37 @@ nav {
 .nav--icon {
     height: 30px;
     margin-right: 7px;
+}
+
+.main-content{
+    /* display: flex; */
+    /* position: relative; */
+    padding:57px 27px;
+    color: #FFFFFF;
+}
+
+.main-heading{
+    margin: 0;
+    font-size: 39.06px;
+    letter-spacing: -0.05em;
+    /* font-weight: 700; */
+}
+
+.main-list{
+    margin-top: 46px;
+    /* height: 190px; */
+    /* margin-bottom: 20.36px; */
+    /* font-weight: 400; */
+    /* font-size: 16px; */
+}
+
+.main-list > li{
+    /* height: 20.36px; */
+    padding-block: 10px;
+    line-height: 19px;  
+}
+
+.main-list>li::marker{
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
